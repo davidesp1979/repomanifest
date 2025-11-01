@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: docker.io/<tuo-utente-dockerhub>/davideparodi/repodavelearn:latest
+          image: docker.io/<tuo-utente-dockerhub>/davideparodi/repodavelearn:40_10
           ports:
             - containerPort: 3000
