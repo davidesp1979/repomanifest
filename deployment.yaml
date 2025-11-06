@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: myapp
+  namespace: prova4
   labels:
     app: myapp
 spec:
@@ -19,5 +20,6 @@ spec:
           image: docker.io/davideparodi/repodavelearn:50_10
           ports:
             - containerPort: 3000
+
 
 
